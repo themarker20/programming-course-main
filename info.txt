@@ -1,0 +1,85 @@
+== Full Stack Web Developer
+
+= Design 
+  - HTML
+    > Structure
+  - CSS
+    > Basic Styling
+  - JavaScript
+    > Interactivity
+
+= Develope 
+  - PHP
+  - MySQL
+
+
+/// What I Need ///
+1- Folder to act like a (ROOT)
+2- Index File
+
+
+// Information
+** HTML 
+    > Self Closign Tag Elements 
+      >> Dosen't have any Content
+
+    > h1 = 2em 
+            1em = 16px === Default Value in Root
+    
+    > Head & Heading & Header
+
+    > Block Level Elements
+    > Inline Level Elements
+
+
+    ?? NEW ??
+
+    > Container Tag ( <open> </open>)
+    > Self Closing Tag ( <open> )
+
+    > File Path
+      (./) form here 
+      (../) back one step
+      > Images
+        (src [Local / link])
+        (alt [Disription])
+        (width / height)
+      > Seprated Files (css / js)
+
+
+** HTML Elements **
+   01- html
+   02- head
+   03- body
+   04- meta (charset / viewport)
+   05- title
+   06- h1 : h6
+   07- p
+   08- span - inline
+   09- u - inline
+   10- b - inline
+   11- hr
+   12- br
+   13- <Comment>
+ 
+   14- img (src)
+   15- a (href)
+   16- ol (Orderd List)
+   17- ul (Unorderd List)
+   18- li (List Item)
+
+
+
+
+
+
+// Assignment #1 //
+1- Create a structure of a web page (in one file)
+
+2- Include main Texture (Headign + Paragraph)
+
+3- Include Images with okay sizes
+
+4- Create a List with your favorite Food / anything
+
+5- Create a Link (Enjoy) with what you want...
