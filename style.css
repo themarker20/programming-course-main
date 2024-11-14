@@ -1,0 +1,48 @@
+/* 
+  Browsers = { Chrome, Firefox, Opera, Safari, IE, Microsoft Edge }
+
+  CSS = Improve HTML to Viewer
+
+  CSS Style =
+              Text
+              Images
+              Coloring
+              Background
+              Dimentions
+              Positions
+              Animations
+              Transitions
+              Responsive
+              (Prefixes)
+
+*/
+
+/* 1em = 16px */
+
+/* 
+
+text-align (left, center, right)
+
+text-decoration (underline, overline, line-through, none)
+
+text-transform (uppercase, lowercase, capitalize)
+
+*/
+
+h1 {
+  color: green;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+div {
+  text-align: center
+}
+
+a {
+  color: red;
+  font-size: 22px;
+  text-decoration: overline;
+}
