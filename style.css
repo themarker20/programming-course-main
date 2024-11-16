@@ -4,7 +4,7 @@
   CSS = Improve HTML to Viewer
 
   CSS Style =
-              Text
+              Text (Done)
               Images
               Coloring
               Background
@@ -17,7 +17,7 @@
 
 */
 
-/* 1em = 16px */
+/* 1em = 16px*/
 
 /* 
 
@@ -27,22 +27,41 @@ text-decoration (underline, overline, line-through, none)
 
 text-transform (uppercase, lowercase, capitalize)
 
+font-family (Google Fonts / Local Fonts)
+
 */
 
-h1 {
-  color: green;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: capitalize;
+/* 
+Color / Background Color
+
+{Color Name}    (blue / white / black)
+{Hex} (#000000) (0123456789abcdef)
+{RGB}           (Red, Green, Blue)(0 > 255)
+{HSL}           (Hue, Saturation, Lightness)
+*/
+
+
+/* @font-face {
+  font-family: danc-script;
+  src: url(./DancingScript.ttf)
+} */
+
+/* body {
+  font-family: danc-script;
+} */
+
+
+/* Import Font from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 div {
-  text-align: center
+  color: #e7e7e7;
+  /* background-color: rgb(80,60,120); */
+  background-color: hsl(187, 60%, 41%);
 }
 
-a {
-  color: red;
-  font-size: 22px;
-  text-decoration: overline;
-}
