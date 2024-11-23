@@ -6,9 +6,9 @@
   CSS Style =
               Text (Done)
               Images
-              Coloring
-              Background
-              Dimentions
+              Coloring (Done)
+              Background (Color)
+              Dimentions (Done)
               Positions
               Animations
               Transitions
@@ -41,6 +41,15 @@ Color / Background Color
 */
 
 
+/* 
+
+width (px, %, vw) (vw => Viewport Width)
+
+height (ps, %, vh) (vh => Viewport Height)
+
+*/
+
+
 /* @font-face {
   font-family: danc-script;
   src: url(./DancingScript.ttf)
@@ -55,13 +64,29 @@ Color / Background Color
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+section {
+  width: 600px;
+  height: 500px;
 }
 
 div {
   color: #e7e7e7;
   /* background-color: rgb(80,60,120); */
-  background-color: hsl(187, 60%, 41%);
+  /* background-color: hsl(187, 60%, 41%); */
+
+  background-color: #262626;
+
+  width: 100vw;
+  height: 100vh;
 }
 
