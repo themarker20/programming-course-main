@@ -1,0 +1,171 @@
+/* 
+  Browsers = { Chrome, Firefox, Opera, Safari, IE, Microsoft Edge }
+
+  CSS = Improve HTML to Viewer
+
+  CSS Style =
+              Text (Done)
+              Images
+              Coloring (Done)
+              Background (Color)
+              Dimentions (Done)
+              Positions
+              Animations
+              Transitions
+              Responsive
+              (Prefixes)
+
+*/
+
+/* 1em = 16px*/
+
+/* 
+
+text-align (left, center, right)
+
+text-decoration (underline, overline, line-through, none)
+
+text-transform (uppercase, lowercase, capitalize)
+
+font-family (Google Fonts / Local Fonts)
+
+*/
+
+/* 
+Color / Background Color
+
+{Color Name}    (blue / white / black)
+{Hex} (#000000) (0123456789abcdef)
+{RGB}           (Red, Green, Blue)(0 > 255)
+{HSL}           (Hue, Saturation, Lightness)
+*/
+
+/* 
+width (px, %, vw) (vw => Viewport Width)
+
+height (ps, %, vh) (vh => Viewport Height)
+*/
+
+
+/* @font-face {
+  font-family: danc-script;
+  src: url(./DancingScript.ttf)
+}
+
+body {
+  font-family: danc-script;
+} */
+
+/* 
+Border
+Border Radius
+*/
+
+/* Display:
+    - Block        > Take the full width of page.
+    - inline       > Take only contant and take elements aside.
+    - inline-block > Take only content but keep width and height.
+    - inline-flex  > Take contant and flex to edit.
+    - flex (Flex Box)
+    - grid (Grid System)
+
+*/
+
+
+
+
+/* Import Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* Transform
+      translate (X , Y)
+      rotate (X, Y)
+      skew  (X , Y)
+      scale (0  >> 1     >> ~)
+            (%0 >> %100  >> ~)
+*/
+
+div{
+  /* color: rgb(255, 255, 255);
+  width: 250px;
+  height: 250px;
+  background-color: rgb(92, 92, 35); */
+
+  /* Translate */
+  /* transform: translate(100px, 100px);
+  transform: translateX(100px);
+  transform: translateY(100px); */
+
+  /* Rotate */
+  /* transform: rotate(-45deg);
+  transform: rotate(45deg) */
+
+  /* Skew */
+  /* transform: skew(20deg); */
+
+  /* Scale */
+  /* transform: scale(1.3); */
+
+  /* transform: translate(100%, 100%) rotate(20deg) skew(30deg) scale(1.4); */
+
+  /* transform: translate(100%, 100%);
+  transform: rotate(20deg);
+  transform: skew(30deg);
+  transform: scale(1.4); */
+
+  /* background-image: url(./image.jpg);
+  background-size: cover;
+  transform: translate(50px, 100px) skew(-10deg) */
+}
+
+
+/* Box Shadow */
+/* 
+  box-shadow: h-offset v-offset blur spread color (inset);
+  box-shadow: 10px 10px red;
+*/
+
+
+div.shadow {
+  height: 300px;
+  width: 300px;
+  background-color: #aaa;
+  box-shadow: 10px 10px 10px 5px red,
+              10px 10px 5px 10px blue,
+              15px 15px 5px 15px black;
+}
+
+
+/* Text Shadow */
+/* 
+  text-shadow: h-offset v-offset blur color;
+*/
+
+h1 {
+  text-shadow: 2px 2px 2px white,
+                2px 2px 2px red;
+}
+
+
+/* Flex Box */
+section {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-start , center, flex-end, space-between, space-around, space-evenly  */
+}
+
+/* Practice */
+div.box {
+  height: 400px;
+  width: 300px;
+  background-color: #bbb;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px 0 #000;
+}
